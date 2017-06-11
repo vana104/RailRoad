@@ -1,0 +1,458 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+body {
+
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*navigation */
+nav {
+    font-size: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-left: 418px;
+    position: absolute;
+    margin-top: 25px;
+    background-color: #FAF0E6;
+    text-transform: uppercase;
+}
+nav ul {
+    text-align: right;
+    display: inline;
+    margin: 0;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 14px 20px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    -color: #fff;
+    text-align: right;
+}
+nav ul li:hover {
+    text-decoration: underline;
+}
+nav a {
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*about us*/
+.header {
+    display: block;
+    color: white;
+    text-align: right;
+    padding-top: 55px;
+    margin-right: 145px;
+    font-size: 25px;
+    font-family: auto;
+}
+.colomnsContainer {
+    background-image: url('../img/track.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section.coloms {
+    padding: 100px 708px;
+    position: relative;
+    font-family: "Trebuchet MS";
+}
+.storytext {
+    text-align: center;
+    width: 200px;
+    margin-top: -62px;
+    font-size: 14px;
+    color: white;
+}
+
+/* information*/
+.infostyle {
+    background-image: url('../img/banner.png');
+    background-position: center;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #FAF0E6;
+    overflow: hidden;
+    position: relative;
+}
+.text {
+    transform: rotate(270deg);
+    float: left;
+    margin-top: 183px;
+    margin-left: 11px;
+    font-size: 24px;
+    font-family: auto;
+    margin-right: -19px;
+}
+.information {
+    width: 200px;
+    height: 220px;
+    padding: 29px 25px;
+    box-sizing: border-box;
+    background-color: #FAF0E6;
+    margin: 25px;
+    margin-left: 38px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 13px;
+    vertical-align: top;
+}
+.information_top {
+    padding-top: 38px;
+    margin-bottom: 22px;
+    text-align: center;
+    padding-left: 272px;
+    font-size: 13px;
+    font-family: "Trebuchet MS";
+    width: 500px;
+}
+.banner {
+    padding: 250px;
+    background-image: url(../img/logo.jpg);
+    margin-bottom: -57px;
+    background-position: center;
+}
+
+/* About Us */
+.label_first {
+    font-size: 25px;
+    font-family: auto;
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: -25px;
+}
+.first {
+    width: 30px;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 37px;
+    margin-bottom: -37px;
+}
+.collage {
+    text-align: center;
+    background-image: url(../img/collage.jpg);
+    background-position: center;
+    height: 768px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 100px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 13px;
+}
+.label_one {
+    left: 400px;
+    position: absolute;
+    top: 70px;
+    margin-right: 436px;
+}
+.label_twelve {
+    left: 444px;
+    position: absolute;
+    top: 156px;
+    margin-right: 436px;
+    text-decoration: underline;
+}
+.label_two {
+    left: 650px;
+    position: absolute;
+    top: 245px;
+    right: 37px;
+}
+.label_eleven {
+    left: 650px;
+    position: absolute;
+    top: 305px;
+    right: 37px;
+    text-decoration: underline;
+}
+.label_three {
+    left: 50px;
+    position: absolute;
+    top: 243px;
+    width: 127px;
+}
+.label_ten {
+    left: 50px;
+    position: absolute;
+    top: 387px;
+    width: 127px;
+    text-decoration: underline;
+}
+.label_four {
+    left: 379px;
+    position: absolute;
+    top: 468px;
+    width: 190px;
+}
+.label_nine {
+    left: 379px;
+    position: absolute;
+    top: 543px;
+    width: 190px;
+    text-decoration: underline;
+}
+.label_five {
+    left: 41px;
+    position: absolute;
+    top: 680px;
+    width: 258px;
+}
+.label_eight {
+    left: 41px;
+    position: absolute;
+    top: 734px;
+    width: 258px;
+    text-decoration: underline;
+}
+.label_six {
+    left: 680px;
+    position: absolute;
+    top: 645px;
+    width: 258px;
+}
+.label_seven {
+    left: 680px;
+    position: absolute;
+    top: 711px;
+    width: 258px;
+    text-decoration: underline;
+}
+
+/*Testimonials*/
+.test {
+    height: 700px;
+    background-image: url('../img/banner.png');
+    background-position: center;
+}
+.test h2 {
+    transform: rotate(270deg);
+    float: left;
+    margin-top: 318px;
+    margin-left: 65px;
+    font-size: 30px;
+}
+.container {
+    padding: 16px;
+    margin: 16px 0;
+    display: inline-block;
+    width: 451px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -129px;
+    margin-top: 177px;
+    margin-left: 78px;
+    text-align: center;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 20px;
+}
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+.read_one {
+    text-align: center;
+    margin-top: 144px;
+    margin-left: 491px;
+    font-size: 16px;
+}
+a {
+    color: #000;
+}
+h5 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    background-color: white;
+    padding-top: 63px;
+    padding-bottom: 20px;
+    font-family: auto;
+}
+hr {
+    width: 30px;
+    border-width: 1px;
+    border-color: black;
+    margin-top: -30px;
+    margin-bottom: 63px;
+}
+.contactform {
+    height: 400px;
+    padding-bottom: 100px;
+}
+input {
+    display: block;
+    margin: 20px 0;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+textarea {
+    border-style: solid;
+    border-color: #000;
+    width: 300px;
+}
+.contactform {
+    color: white;
+    width: 1000px;
+    background-color: #fff;
+}
+.contactform p {
+    font-size: 12px;
+}
+.button {
+    width: 307px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+.name {
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+}
+.textareacontainer {
+    display: inline-block;
+    width: 300px;
+}
+.form {
+    text-align: center;
+}
+.nameboxes {
+    width: 250px;
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.text_one {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.text_two {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.text_three {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.contact {
+    display: block;
+    background-color: #FAF0E6;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: auto;
+}
+.email_two {
+    display: inline-block;
+    margin-right: 240px;
+}
+.email_three {
+    display: inline-block;
+    margin: 20px;
+}
+.email_four {
+    display: inline-block;
+    margin-left: 248px;
+}
+.detail_one {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+}
+.new {
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+}
+.button_two {
+    display: inline-block;
+    width: 61px;
+    height: 24px;
+    margin-left: -5px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+}
+.group {
+    display: inline-block;
+    margin-left: 185px;
+}
+.icons {
+    margin-left: 220px;
+    display: inline-block;
+}
+h3 {
+    font-weight: normal;
+    text-decoration: underline;
+}
+h2 {
+    font-weight: normal;
+}
+h4 {
+    font-weight: normal;
+}
+h5 {
+    font-weight: normal;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
