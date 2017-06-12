@@ -27,7 +27,7 @@ body {
 nav {
     font-size: 14px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    padding-left: 418px;
+    padding-left: 409px;
     position: absolute;
     margin-top: 25px;
     background-color: #FAF0E6;
@@ -66,7 +66,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*about us*/
+/*Our Story*/
 .header {
     display: block;
     color: white;
@@ -94,7 +94,7 @@ section.coloms {
     color: white;
 }
 
-/* information*/
+/*Packages*/
 .infostyle {
     background-image: url('../img/banner.png');
     background-position: center;
@@ -145,7 +145,7 @@ section.coloms {
     background-position: center;
 }
 
-/* About Us */
+/* Read Our Stories */
 .label_first {
     font-size: 25px;
     font-family: auto;
@@ -307,9 +307,7 @@ section.coloms {
     margin-left: 491px;
     font-size: 16px;
 }
-a {
-    color: #000;
-}
+
 h5 {
     color: #000;
     text-align: center;
@@ -327,6 +325,8 @@ hr {
     margin-top: -30px;
     margin-bottom: 63px;
 }
+
+/* Get In Touch*/
 .contactform {
     height: 400px;
     padding-bottom: 100px;
@@ -390,6 +390,8 @@ textarea {
     color: black;
     display: block;
 }
+
+/*Join the railroad*/
 .contact {
     display: block;
     background-color: #FAF0E6;
@@ -438,6 +440,14 @@ textarea {
     margin-left: 220px;
     display: inline-block;
 }
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Headings*/
 h3 {
     font-weight: normal;
     text-decoration: underline;
@@ -451,8 +461,7 @@ h4 {
 h5 {
     font-weight: normal;
 }
-footer {
-    text-align: center;
-    background-color: black;
-    color: white;
+/*links*/
+a {
+    color: #000;
 }
